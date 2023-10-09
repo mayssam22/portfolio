@@ -43,7 +43,7 @@ const An = () =>{
       fetch('/api/countAllRecords')
         .then((response) => response.json())
         .then((data) => {
-          setRecordCount(data.count);
+                setRecordCount(data.count);
         })
         .catch((error) => {
           console.error('Error fetching record count:', error);
