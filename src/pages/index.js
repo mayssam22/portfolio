@@ -107,9 +107,9 @@ export default function Home() {
                 </motion.button>
                     <div className="flex items-center flex-col justify-center">
                         <CustomMobileLink href="" className='!font-bold' title={modi==="en" ? "Download :" : "Télécharger :"} />
-                        <CustomMobileLink href="/mayssam hedhli cv.pdf" className='' title={modi==="en" ? "CV in Fr" : "CV en Fr"} />
+                        <CustomMobileLink href="/mayssam hedhli cv Fr.pdf" className='' title={modi==="en" ? "CV in Fr" : "CV en Fr"} />
                         <CustomMobileLink href="/mayssam hedhli Lettre de Motivation.pdf" className='' title={modi==="en" ? "Motivation Letter in Fr" : "Lettre De Motivation en Fr"}  />
-                        <CustomMobileLink href="/mayssam hedhli cv - Copie.pdf" className='' title={modi==="en" ? "CV in En" : "CV en En"} />
+                        <CustomMobileLink href="/mayssam hedhli cv - En.pdf" className='' title={modi==="en" ? "CV in En" : "CV en En"} />
                         <CustomMobileLink href="/mayssam hedhli Lettre de Motivation - Copie.pdf" className='' title={modi==="en" ? "Motivation Letter in En" : "Lettre De Motivation en En"}  />
                     </div>
     
