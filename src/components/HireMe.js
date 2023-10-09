@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { CircularText } from "./Icons";
-import profilePic from "../../public/images/ohh.png"
-import Image from 'next/image'
 import Link from "next/link";
 import ContactPopup from "./ContactPopup";
 import useLanguage from "./hooks/useLanguage";
