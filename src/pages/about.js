@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import Head from "next/head";
 import React, { useEffect, useRef,useState } from "react";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/uu33.png";
+import profilePic from "../../public/images/profile/mine.jpg";
 import { useMotionValue,useSpring,useInView } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
@@ -120,7 +120,7 @@ const About = () =>{
                 <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
                     <div className="flex flex-col items-end justify-center xl:items-center">
                         <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                            <An />+
+                        <AnimatedNumbers value={16}/>+
                         </span>
                         <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:-sm">{modi==="en" ? "Satisfied Clients" : "Clients satisfaits"}</h2>
                     </div>

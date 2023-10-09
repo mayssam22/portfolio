@@ -121,7 +121,7 @@ const NavBar = () => {
                 </nav>
 
                 <nav className="flex items-center justify-center flex-wrap">
-                    <motion.a href="www.linkedin.com/in/mayssam-hedhli-5a7a65242" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3"><LinkedInIcon /></motion.a>
+                    <motion.a href="//www.linkedin.com/in/mayssam-hedhli-5a7a65242" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3"><LinkedInIcon /></motion.a>
                     <motion.a href="https://github.com/mayssam22" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 ml-3"><GithubIcon /></motion.a>
                     
                     <button onClick={ () => setMode(mode==="light" ? "dark" : "light") }
@@ -190,7 +190,7 @@ const NavBar = () => {
                     </nav>
     
                     <nav className="flex items-center justify-center flex-wrap mt-2">
-                        <motion.a href="www.linkedin.com/in/mayssam-hedhli-5a7a65242" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3 sm:mx-1"><LinkedInIcon /></motion.a>
+                        <motion.a href="//www.linkedin.com/in/mayssam-hedhli-5a7a65242" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 mx-3 sm:mx-1"><LinkedInIcon /></motion.a>
                         <motion.a href="https://github.com/mayssam22" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className="w-6 ml-3 sm:mx-1 bg-light rounded-full dark:bg-dark"><GithubIcon /></motion.a>
                         
                         <button onClick={ () => setMode(mode==="light" ? "dark" : "light") }
