@@ -316,7 +316,7 @@ const FeaturedProject = ({type,title,summary,img,link,github}) => {
                       <div class="bg-primary dark:bg-primaryDark h-2.5 rounded-full" style={{ width: `100%`}}></div>
                     </div>
                 <br/>
-                <LikesVery className="text-primary mt-8" projectID={title}/>
+              {/*  <LikesVery className="text-primary mt-8" projectID={title}/>*/} 
             </div>
         </article>
     )
@@ -425,7 +425,6 @@ const FeaturedProject1 = ({type,title,summary,img,link,github}) => {
                       <div class="bg-primary dark:bg-primaryDark h-2.5 rounded-full" style={{ width: `80%`}}></div>
                     </div>
                 <br/>
-                <LikesVery className="text-primary mt-8" projectID={title}/>
             </div>
         </article>
     )
@@ -530,7 +529,6 @@ const Projects = ({title,type,img,link,github}) => {
                       <div class="bg-primary dark:bg-primaryDark h-2.5 rounded-full" style={{ width: `100%`}}></div>
                 </div>
                 <br/>
-                <LikesVery className="text-primary mt-8 dark:text-primaryDark" projectID={title}/>
             </div>
          </article>
     )
@@ -630,7 +628,6 @@ const Projects1 = ({title,type,img,link,github}) => {
                       <div class="bg-primary dark:bg-primaryDark h-2.5 rounded-full" style={{ width: `100%`}}></div>
                 </div>
                 <br/>
-                <LikesVery className="text-primary mt-8 dark:text-primaryDark" projectID={title}/>
             </div>
          </article>
     )
@@ -733,7 +730,6 @@ const Projects2 = ({title,type,summary,img,link,github}) => {
                       <div class="bg-primary dark:bg-primaryDark h-2.5 rounded-full" style={{ width: `100%`}}></div>
                 </div>
                 <br/>
-                <LikesVery className="text-primary mt-8 dark:text-primaryDark" projectID={title}/>
             </div>
          </article>
     )
@@ -837,7 +833,6 @@ const Projects3 = ({title,type,summary,img,link,github}) => {
                       <div class="bg-primary dark:bg-primaryDark h-2.5 rounded-full" style={{ width: `10%`}}></div>
                 </div>
                 <br/>
-                <LikesVery className="text-primary mt-8 dark:text-primaryDark" projectID={title}/>
             </div>
          </article>
     )

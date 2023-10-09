@@ -103,7 +103,7 @@ const NavBar = () => {
     }
 
     return (
-        <header className="relative w-full px-32 py-8 md:py-8 lg:py-8 font-medium flex items-center justify-between dark:text-light  lg:px-16 md:px-12 sm:px-8">
+        <header className="relative w-full px-32 py-8 md:py-10 lg:py-8 font-medium flex items-center justify-between dark:text-light  lg:px-16 md:px-12 sm:px-8">
 
             <button className="flex-col justify-center items-center hidden lg:flex" onClick={handleClick}>
                 <span className={`bg-dark dark:bg-light block translate-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
