@@ -850,7 +850,7 @@ const Projects3 = ({title,type,summary,img,link,github}) => {
 
 
 
-const projects = () => {
+const Projectss = () => {
   const [modi,setModi] = useLanguage();
     return (
         <>
@@ -938,4 +938,4 @@ const projects = () => {
         </>
     )
 }
-export default projects ;
+export default Projectss ;

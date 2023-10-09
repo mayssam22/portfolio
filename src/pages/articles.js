@@ -55,7 +55,7 @@ const Article = ({img,title,date,link}) =>{
       )
 }
 
-const articles = () => {
+const Articles = () => {
   const [modi,setModi] = useLanguage();
     return(
         <>
@@ -99,4 +99,4 @@ const articles = () => {
         </>
     )
 }
-export default articles ;
+export default Articles ;

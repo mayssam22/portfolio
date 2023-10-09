@@ -50,7 +50,7 @@ const NavBar = () => {
     const [modi,setModi] = useState("");
     const [isOpen,setIsOpen] = useState(false);
 
-    const handleLangue = (choice) => {
+    const HandleLangue = (choice) => {
 
         window.localStorage.getItem('langue');
 
@@ -149,13 +149,13 @@ const NavBar = () => {
                                 className="origin-top-right absolute right-0 -mt-[100%] -mx-[86%] w-30 rounded-md shadow-lg bg-dark ring-1 ring-light dark:bg-light dark:ring-dark ring-opacity-5 divide-y divide-gray-100 focus:outline-none"
                             >
                                 <div className="py-1">
-                                <Link href="" onClick={() => handleLangue("en")} className="block px-4 py-2 text-sm
+                                <Link href="" onClick={() => HandleLangue("en")} className="block px-4 py-2 text-sm
                                 bg-dark text-light
                                 hover:bg-light hover:text-dark border border-solid border-transparent 
                                 hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light">
                                     En
                                 </Link>
-                                <Link href="" onClick={() => handleLangue("fr")} className="block px-4 py-3 text-sm
+                                <Link href="" onClick={() => HandleLangue("fr")} className="block px-4 py-3 text-sm
                                 bg-dark text-light 
                                 hover:bg-light hover:text-dark border border-solid border-transparent 
                                 hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light">
@@ -219,13 +219,13 @@ const NavBar = () => {
                                 className="origin-top-right absolute right-0 -mt-[100%] -mx-[86%] w-30 rounded-md shadow-lg bg-dark ring-1 ring-light dark:bg-light dark:ring-dark ring-opacity-5 divide-y divide-gray-100 focus:outline-none"
                             >
                                 <div className="py-1">
-                                <Link href="" onClick={() => handleLangue("en")} className="block px-4 py-2 text-sm
+                                <Link href="" onClick={() => HandleLangue("en")} className="block px-4 py-2 text-sm
                                 bg-dark text-light
                                 hover:bg-light hover:text-dark border border-solid border-transparent 
                                 hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light">
                                     En
                                 </Link>
-                                <Link href="" onClick={() => handleLangue("fr")} className="block px-4 py-3 text-sm
+                                <Link href="" onClick={() => HandleLangue("fr")} className="block px-4 py-3 text-sm
                                 bg-dark text-light 
                                 hover:bg-light hover:text-dark border border-solid border-transparent 
                                 hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light">

@@ -64,7 +64,7 @@ const An = () =>{
     return <span ref={ref}></span>
 }
 
-const about = () =>{
+const About = () =>{
     const [modi,setModi] = useLanguage();
     return(
     <>
@@ -147,4 +147,4 @@ const about = () =>{
     );
 }
 
-export default about ;
+export default About ;
