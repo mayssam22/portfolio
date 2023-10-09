@@ -4,7 +4,6 @@ import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.JPG";
 import project3 from "../../public/images/projects/proj srtb/act1.png";
 import project4 from "../../public/images/projects/proj srtb/act2.png";
 import project5 from "../../public/images/projects/proj srtb/auth1.png";
@@ -863,7 +862,7 @@ const Projectss = () => {
                      <div className="col-span-12">
                         <FeaturedProject 
                         title="Web App 1"
-                        img={project1}
+                        img={pro0}
                         summary={modi==="en" ? `A social office management web application to manage group health insurance 
                         as well as occupational medicine with the frameworks: Angular and Spring Boot.` : 
                         `Une application web de gestion de bureau social pour gérer l'assurance du groupe maladie 
@@ -876,7 +875,7 @@ const Projectss = () => {
                      <div className="col-span-6 sm:col-span-12">
                             <Projects 
                             title="Mobile App 1"
-                            img={project1}
+                            img={pro0}
                             link="/"
                             github="/"
                             type={modi==="en" ? "Mobile app with ionic, weather api and firebase <<Daily Note>>" : 
@@ -886,7 +885,7 @@ const Projectss = () => {
                      <div className="col-span-6 sm:col-span-12">
                            <Projects1 
                             title="Frontend web Project 1"
-                            img={project1}
+                            img={pro0}
                             link="/"
                             github="/"
                             type={modi==="en" ? "Gaming View with html/css/Scss/JS." : "Gaming View avec html/css/Scss/JS."}
@@ -895,7 +894,7 @@ const Projectss = () => {
                      <div className="col-span-12">
                            <FeaturedProject1
                             title="Mobile App 2"
-                            img={project1}
+                            img={pro0}
                             summary={modi==="en" ? `A mobile application for sales and 
                             customer meetings in the electronic world with the frameworks: ionic, sqlite and firebase.` 
                             : `Une application mobile sur les ventes et les rendez-vous des client en monde electronique avec
@@ -908,7 +907,7 @@ const Projectss = () => {
                      <div className="col-span-6 sm:col-span-12">
                             <Projects2 
                             title="Desktop App"
-                            img={project1}
+                            img={pro0}
                             summary={modi==="en" ? `A desktop application is face-to-face 
                             sales of books, CDs, DVDs and etc. with JAVA, JavaFX and mySQL.` 
                             : `Une application desktop sur les ventes des livres,CD,DVD et etc en présentiel avec 
@@ -921,7 +920,7 @@ const Projectss = () => {
                      <div className="col-span-6 sm:col-span-12">
                      <Projects3
                             title="ML App"
-                            img={project1}
+                            img={pro0}
                             summary={modi==="en" ? `Machine learning app of Fake news detection with conception UML and program language python.` 
                             : `Une application machine learning de détection des fausses informations avec conception UML et language python.`} 
                             link="/"
