@@ -37,7 +37,7 @@ const ContactPopup = ({ isOpen, onClose }) => {
         // After the message is sent (simulated delay), reset the loading state
         setLoad(false);
       }, 2000);
-      alert('Thank you. I will contact you as soon as possible.');
+      alert(modi == "en" ? 'Thank you. I will contact you as soon as possible.' : "Je vous contacterai dans les plus brefs délais.");
       setName("");setEmail("");setMessage("");
     },(error)=>{
       setTimeout(() => {
