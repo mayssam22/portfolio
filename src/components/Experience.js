@@ -46,11 +46,11 @@ const Experience = () => {
                     company="S.R.T.B"
                     companyLink="http://www.srtbizerte.com.tn/index_fr.php"
                     time="2021-2022"
-                    address={modi==="en" ? "Regional Transport Company, Tunisia" : "Société Régional De Transport, Tunisie"}
+                    address={modi==="en" ? "Regional Transport Company, Tunisia" : "Société Régionale De Transport, Tunisie"}
                     work={modi==="en" ? `I carried out an introductory internship at the S.R.T.B company, in addition I completed 
                     an end-of-study project internship in order to carry out the conception UML and development of a social 
                     office management web application to manage the insurance of disease group as well as occupational 
-                    medicine with a report developed in Latex.` : `J'ai effectué un stage d'initiation au sein de l'entreprise
+                    medicine with a report developed in Latex.` : `J'ai effectuée un stage d'initiation au sein de l'entreprise
                      S.R.T.B, en complément j'ai réalisé un stage projet de fin d'études afin de réaliser la conception UML 
                      et le développement d'une application web de gestion de caisse sociale pour gérer l'assurance maladie 
                      groupe ainsi que médecine du travail avec un rapport développé en Latex.`}
@@ -62,7 +62,7 @@ const Experience = () => {
                     time="2019-2023"
                     address={modi==="en" ? "FSB, Tunisia" : "FSB, Tunisie"}
                     work={modi==="en" ? "I carried out several end-of-year web, desktop and mobile development and conception projects."
-                     : "J'ai réalisé plusieurs projets de fin d'année en développement et conception web, desktop et mobile."}
+                     : "J'ai réalisée plusieurs projets de fin d'année en développement et conception web, desktop et mobile."}
                     />
                 </ul>
             </div>
