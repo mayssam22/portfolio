@@ -83,7 +83,7 @@ const Articles = () => {
                     />
                     <Article
                       title={modi==="en" ? 
-                      "Certified in CCNA1 (Cisco Certified Network Associate 1)." : 
+                      "Certified in CCNA2 (Cisco Certified Network Associate 2)." : 
                       "Certifié en CCNA2 (Cisco Certified Network Associate 2)."}
                       date={modi==="en" ? "2023" : "2023"}
                     />
